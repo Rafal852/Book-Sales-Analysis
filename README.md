@@ -6,12 +6,13 @@
 This project involves analyzing a dataset of books, extracted from Books_Data_Clean.csv. The dataset contains various attributes such as publishing year, author, genre, ratings, sales, and publisher information. The objective is to explore key insights and trends in book sales, ratings, and author popularity using Python libraries like Pandas, Matplotlib, and Seaborn.
 
 ## Analysis Goals
-- Analyze the distribution of book publication years.
-- Examine the popularity of literary genres.
-- Investigate the relationship between sale price and the number of units sold.
-- Visualize the distribution of languages in which books were published.
-- Explore the relationship between book ratings and the number of ratings.
-- Analyze publisher and author revenues.
+- Explore Publication Trends: Analyze the distribution of books published over the years
+- Genre Popularity: Identify the most popular genres based on the number of books and their ratings.
+- Sales Analysis: Investigate the relationship between sale price and units sold.
+- Language Distribution: Visualize the distribution of books by language.
+- Ratings Analysis: Examine the relationship between book ratings and the number of ratings.
+- Author Performance: Analyze total gross sales by author and units sold by author rating.
+- Sales Trends Over Time: Study the trends in units sold over the years.
 
 ## Tools Used
 - **Python** as the primary programming language.
@@ -62,7 +63,6 @@ The dataset includes the following columns:
 
 ### 3. Box Plot of Book Ratings Count by Genre
 ![Box Plot of Book Ratings Count by Genre](https://github.com/user-attachments/assets/8789c0e8-2280-4557-8cc2-783eb7927f83)
-
 
 ### 4. Scatter Plot of Sale Price vs Units Sold
 ![Scatter Plot of Sale Price vs Units Sold](https://github.com/user-attachments/assets/14d6de12-1f2a-472b-b8d3-304ea1078bcd)
